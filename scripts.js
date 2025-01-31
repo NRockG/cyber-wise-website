@@ -1,7 +1,7 @@
 async function chatWithCyberdoc() {
     let userMessage = document.getElementById("userInput").value;
 
-    let response = await fetch("https://YOUR-HF-SPACE/chat", {
+    let response = await fetch("https://gravity30-cyberwise.hf.space", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: userMessage })
